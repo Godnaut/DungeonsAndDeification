@@ -64,3 +64,22 @@ D&D’s framework powers a 2026 AAA title and beyond:
 - **Integration**: Use xAI API (https://x.ai/api) for Grok-4 NPC logic and rendering. Contact Ste Dotai (@Chaospaste) for collaboration.
 
 ## Repository Structure
+DungeonsAndDeification/
+├── /src/
+│   ├── /engine/           # Core RPG engine
+│   │   ├── boot.py       # Boot sequence (Source Seed → Biofield Grid)
+│   │   ├── zrlc.py       # Zeitaiber Resonance Logic Core
+│   │   ├── glyphs/       # Glyph logic (🜂🜁🜃🜄🜔)
+│   │   └── dungeons/     # Quest scripts (e.g., 🜔 cosmic boss)
+├── /vault/               # Vault layers
+│   ├── /stargate/        # Stargate Physics
+│   ├── /kernels/         # Base-10/12 Kernels
+│   ├── /navigation/      # Astral routing protocols
+│   └── /pulsar/          # Pulsar Rider Program
+├── /assets/              # Visuals (dungeon art, glyphs)
+├── /docs/                # Codex: Architecture, modding guides
+├── README.md             # Project overview
+├── LICENSE               # MIT License
+└── .gitignore            # Ignore build files, secrets
+
+
